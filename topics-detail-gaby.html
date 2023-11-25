@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Diagramas</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/templatemo-topic-listing.css" rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+    <main>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="bi-back"></i>
+                    <span>UML</span>
+                </a>
+
+                <div class="d-lg-none ms-auto me-4">
+                    <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="index.html#section_2">Tópicos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="index.html#section_3">Como isso Funciona</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="index.html#section_4">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <header class="site-header d-flex flex-column justify-content-center align-items-center">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+
+                    <div class="col-lg-5 col-12 mb-5">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+
+                                <li class="breadcrumb-item active" aria-current="page">UML - Unified Modeling Language
+                                </li>
+                            </ol>
+                        </nav>
+
+                        <h2 class="text-white">UML <br>Unified Modeling Language</h2>
+
+                        <div class="d-flex align-items-center mt-5">
+                            <a href="#topics-detail" class="btn custom-btn custom-border-btn smoothscroll me-4">Saiba
+                                mais</a>
+
+                            <a href="#top" class="custom-icon bi-bookmark smoothscroll"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-12">
+                        <div class="topics-detail-block bg-white shadow-lg">
+                            <img src="images/topics/undraw_Remote_design_team_re_urdx.png"
+                                class="topics-detail-block-image img-fluid">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+
+        <section class="topics-detail-section section-padding" id="topics-detail">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-8 col-12 m-auto">
+                        <h3 class="mb-4">Introdução a UML</h3>
+
+                        <p>A UML, que significa Unified Modeling Language (Linguagem de Modelagem Unificada)
+                            <br>
+                            Ela utiliza diagramas para expressar os aspectos de um sistema, assim sendo possível
+                            entender os requisitos, estrutura e comportamento do sistema, resumindo modelar os sistemas,
+                            o software, desenhar antes de começar a codar.
+                        </p>
+
+                        <h3 class="mb-4">Requisitos</h3>
+                        <p>Os requisitos podem ser classificados como: Requisito Funcional ou Requisito Não-Funcional
+                        </p>
+
+                        <hr>
+                        <p>Requisitos Funcionais (RF) descreve as funcionalidades do sistema, isto é, ele representa o
+                            que o sistema deve fazer.
+                            <br>
+                            <hr>
+                        </p>
+                        <p>
+                            <strong>Requisito Funcional 01 (RF.01):</strong> O sistema deve listar todos os alunos
+                            cadastrados em uma turma. <br>
+
+                            <strong>Requisito Funcional 02 (RF.02):</strong> O sistema deve calcular a média dos alunos
+                            de uma turma. <br>
+
+                            <strong>Requisito Funcional 03 (RF.03):</strong> O sistema deve permitir o CRUD (Create,
+                            Read, Delete, Update) de alunos. <br>
+
+                            <strong>Requisito Funcional 04 (RF.04):</strong> O sistema deve gerar um relatório com a
+                            média dos alunos de uma turma.
+                        </p>
+
+                        <img src="images/gabi-tree.jpg" class="topics-detail-block-image img-fluid" width="800px">
+                        <br>
+
+                        <blockquote>
+                            "Requisitos claros garantem a base sólida para um projeto bem-sucedido."
+                        </blockquote>
+
+                        <hr>
+                        <p>Requisitos Não Funcionais (RNF) são requisitos que expressam restrições que o software deve
+                            atender ou qualidades específicas que o sistema deve possuir. Eles não associados
+                            diretamente com as funções presentes no sistema.
+                            <br>
+                            <hr>
+                        </p>
+                        <p>
+                            <strong>Requisito Não Funcional 01 (RNF.01):</strong> O sistema deve emitir o relatório da
+                            média dos alunos em no máximo 5 segundos (desempenho). <br>
+
+                            <strong>Requisito Não Funcional 02 (RNF.02):</strong> O sistema deve ser executado no
+                            sistema operacional Windows Vista e Linux nas distribuições Ubuntu e Famelix (restrições de
+                            software).<br>
+
+                            <strong>Requisito Não Funcional 03 (RNF.03): </strong> A senha para acesso ao sistema deve
+                            ter pelo menos 8 caracteres e incluir letras e números (segurança).<br>
+                        </p>
+                        <br><br>
+                        <h3 class="mb-4">Diagramas</h3>
+
+                        <h5 class="mb-4">Diagrama de Classe</h5>
+                        <p>Uma classe é representada por um retângulo com três divisões, são elas: O nome da classe,
+                            seus atributos e por fim os métodos, cada classe do diagrama representa uma tabela do banco
+                            de dados. - Usado em um sistema orientado a objetos
+                        </p> <br>
+                        <img src="images/diagClasseGab.png" class="topics-detail-block-image img-fluid" width="800px">
+                        <br>
+
+                        <h5 class="mb-4">Diagrama de Caso de Uso</h5>
+                        <p>O caso de uso é um meio para especificar as exigências requeridas por um sistema, ou seja,
+                            ele representa um padrão de comportamento do sistema.
+                            <br> O Diagrama de Caso de Uso se concentra nos atores (usuários externos ou outros
+                            sistemas) e nos casos de uso (funcionalidades ou interações) que esses atores realizam no
+                            sistema.
+                            <br> É usado para representar as interações entre o sistema e seus usuários ou outros
+                            sistemas.
+                        </p> <br>
+                        <img src="images/diagCasoUsoGab.png" class="topics-detail-block-image img-fluid" width="800px">
+                        <br>
+
+                        <h5 class="mb-4">Diagrama de Sequência</h5>
+                        <p>O Diagrama de Sequência se concentra na interação entre objetos no sistema e mostra a ordem
+                            em que essas interações ocorrem ao longo do tempo.
+                            <br> Diagrama de Sequência detalha a interação entre objetos para implementar essas
+                            funcionalidades em um cenário específico.
+                        </p> <br>
+                        <img src="images/diagSequenciaGab.png" class="topics-detail-block-image img-fluid"
+                            width="800px">
+                        <br>
+
+                        <h5 class="mb-4">Diagrama de Atividade</h5>
+                        <p>O diagrama de atividade tem como objeto modelar um conjunto de atividades no sistema. Essas
+                            atividades podem ser executadas através do controle de condições ou até mesmo em paralelo.
+                            <br> O diagrama de atividade é utilizado também para modelar graficamente (threads) em
+                            programas concorrentes.
+                        </p> <br>
+                        <img src="images/diagAtividadeGab.png" class="topics-detail-block-image img-fluid"
+                            width="800px">
+                        <br>
+
+                        <h5 class="mb-4">Diagrama de Estado</h5>
+                        <p>O Diagrama de Estado na UML é usado para representar os diferentes estados que um objeto pode
+                            ter durante sua vida e como ele muda de um estado para outro em resposta a eventos. <br>
+                            Mostra os diferentes estados de um objeto durante sua execução e o estímulo que faz com que
+                            o objeto mude de estado.</p> <br>
+                        <img src="images/diagEstadoGab.png" class="topics-detail-block-image img-fluid" width="800px">
+                        <br>
+
+                        <h5 class="mb-4">Diagrama de Componente</h5>
+                        <p>O propósito da elaboração de um diagrama de componente é mostrar em forma de desenho a
+                            arquitetura de um sistema de software através de seus componentes, explicitando
+                            principalmente as suas dependências.
+                            <br> O diagrama de componente ajuda-nos a entender como os diversos componentes do sistema
+                            interagem entre si. Portanto, podemos definir que o diagrama de componente apresenta a
+                            arquitetura física e as dependências entre vários componentes do software.
+                        </p> <br>
+                        <img src="images/diagComponenteGab.png" class="topics-detail-block-image img-fluid"
+                            width="800px">
+                        <br>
+                        <p><strong>Página do sistema</strong> - Onde tudo irá ser acessado. <br>
+                            <strong>Gerenciador de login</strong> - Possibilita o acesso a página. <br>
+                            <strong>SGDB</strong> - Gerencia o banco de dados. <br>
+                            <strong>Gerenciador de login</strong> - É a interface fornecida que dá acesso ao componente
+                            e a requerida é a que permite o acesso que seria a página do sistema. <br>
+                        </p>
+
+
+                        <br>
+                        <h5 class="mb-4">Diagrama de Entidade e Relacionamento</h5>
+                        <p>O diagrama de entidade e relacionamento tem como objetivo demonstrar quais as necessidades
+                            para o banco de dados: as tabelas, os códigos e as referências à outra tabela.</p> <br>
+                        <img src="images/diagEntidadeRelacionamentoGab.png" class="topics-detail-block-image img-fluid"
+                            width="800px">
+                        <br>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-padding section-bg">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-5 col-12">
+                        <img src="images/rear-view-young-college-student.jpg" class="newsletter-image img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-5 col-12 subscribe-form-wrap d-flex justify-content-center align-items-center">
+                        <form class="custom-form subscribe-form" action="#" method="post" role="form">
+                            <h4 class="mb-4 pb-2">Receba nossa Newsletter</h4>
+
+                            <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*"
+                                class="form-control" placeholder="Digite seu Email" required="">
+
+                            <div class="col-lg-12 col-12">
+                                <button type="submit" class="form-control">Inscreva-se</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer section-padding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-12 mb-4 pb-2">
+                    <a class="navbar-brand mb-2" href="index.html">
+                        <i class="bi-back"></i>
+                        <span>U M L</span>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <h6 class="site-footer-title mb-3">Navegue</h6>
+
+                    <ul class="site-footer-links">
+                        <li class="site-footer-link-item">
+                            <a href="#top" class="site-footer-link">Home</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="index.html#section_2" class="site-footer-link">Tópicos</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="index.html#section_4" class="site-footer-link">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+                    <h6 class="site-footer-title mb-3">Dúvidas</h6>
+
+                    <p class="text-white d-flex mb-1">
+                        <a href="tel: 992421400" class="site-footer-link">
+                            De segunda a sexta
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex">
+                        <a href="mailto:brunexcorp@gmail.com" class="site-footer-link">
+                            na sala de aula
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Português</button>
+
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button">English</button></li>
+
+                            <li><button class="dropdown-item" type="button">Español</button></li>
+
+                            <li><button class="dropdown-item" type="button">Français</button></li>
+                        </ul>
+                    </div>
+
+                    <p class="copyright-text mt-lg-5 mt-4">Copyright © 2048 VUE.Js Entra21 Edição 2023. All rights
+                        reserved.
+                        <br><br>Design: <a rel="nofollow" href="#">Obrigado Internet</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
